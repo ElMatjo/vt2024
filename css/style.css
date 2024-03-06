@@ -1,5 +1,5 @@
 #wrapper {
-    border: 1px solid;
+    
     width: 80%;
     margin: auto;
     display: grid;
@@ -11,11 +11,16 @@
 
 header {
     grid-area: hd;
-    background-color: #ff00b3;
+    background-color: #ffffff;
 }
 
 header h1 {
     text-align: center;
+}
+
+#Logga {
+
+
 }
 
 nav {
@@ -33,23 +38,26 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: rgb(255, 0, 0);
     text-decoration: 0;
 }
 
 main {
     grid-area: mn;
-    background-color: #00f7ff;
+    padding: 3%;
+    
+    border-top: #000 solid 2px;
 }
 
 footer {
     grid-area: ft;
-    background-color: #00ff84;
+    padding: 3%;
+    border-top: #000;
 }
 
 @media only screen and (max-width: 600px) {
     body {
-        background-color: beige;
+        background-color: rgb(255, 255, 255);
     }
 
     header {
