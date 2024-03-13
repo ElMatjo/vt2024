@@ -18,13 +18,20 @@ header h1 {
     text-align: center;
 }
 
-#Logga {
+nav ul li {
+ width: 100%;
+}
 
+main li {
+    font-size: 30pt;
+    margin: 2rem;
+}
 
+main :hover {
+text-decoration: underline red;
 }
 
 nav {
-    display: flex;
     justify-content: center;
 }
 
@@ -40,6 +47,7 @@ nav ul li {
 nav ul li a {
     color: rgb(255, 0, 0);
     text-decoration: 0;
+    font-size: larger;
 }
 
 main {
@@ -65,7 +73,6 @@ footer {
     }
 
     #hamburger {
-        /* border: 1px solid #000; */
         height: 1.5rem;
         width: 2.2rem;
         position: absolute;
@@ -77,6 +84,10 @@ footer {
     #hamburger div {
         border: 2px solid #000;
         margin: 0.3rem;
+    }
+
+    main li {
+        font-size: 20pt;
     }
 
 
@@ -107,5 +118,5 @@ nav ul li a {
 }
 
 nav ul li :hover {
-    background-color: rgb(159, 0, 109);
+    text-decoration: underline red;
 }
